@@ -7,5 +7,5 @@ return [
     
     //Admin
     'admin_extension' => '/cms',
-    'admin_folder' => 'admin::'
+    'admin_folder' => 'cms::'
 ];
