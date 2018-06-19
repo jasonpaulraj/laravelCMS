@@ -1,0 +1,21 @@
+/*Backend Layout*/
+.wrapper{position:unset;}
+.main-sidebar{background:#222d32;height:100vh;}
+.sidebar-toggle::before,
+.sidebar-toggle:hover,
+.main-header:hover,
+.main-header>a{
+    content: none !important;
+    text-decoration: none !important;
+    background: transparent !important;
+    border: none !important;
+}
+.sidebar-toggle{
+    padding:2px !important;
+}
+.footer{
+    background: #222d32;
+    position: relative;
+    height: 46px;
+    bottom:0;
+}
